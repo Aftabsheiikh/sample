@@ -1,0 +1,32 @@
+$bg-color: #ffffff;
+$color-primary:#BC6C25;
+
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    
+    font-family: 'Poppins', sans-serif;
+    @media screen and (max-width: 1000px){
+        font-size: 80%;
+        }
+}
+body{
+    background-color:$bg-color;
+
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+  display: grid; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 80vh 90vh max-content 70vh 100vh 120vh 100vh;
+  row-gap: 2rem;
+  @media screen and (max-width: 1000px){
+  display: grid; 
+  grid-template-columns: 1fr;
+  grid-template-rows: 80vh max-content max-content max-content 100vh min-content 100vh;
+}
+  
+}

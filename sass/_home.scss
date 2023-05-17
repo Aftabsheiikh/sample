@@ -1,0 +1,17 @@
+.header{
+    
+    &__logo-box{
+        padding: 1rem;
+       
+    }
+    &__logo{
+        height: 4rem;
+        width: 4rem;
+        
+    }
+}
+.container-12{
+    background-image: linear-gradient(to right, rgba(#000000, .45),rgba(#000000, .45)), url(/img/hero.jpg);
+    background-size: cover;
+    height: 100%;
+}

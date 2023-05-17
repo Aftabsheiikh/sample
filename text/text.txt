@@ -1,0 +1,13 @@
+Unleash the potential of martial arts with the Uber Karate program.
+<header class="header">
+        <ul class="header__list">
+            <li class="header__list--item"><a href="" class="header__list--link">Home</a> </li>
+            <li class="header__list--item"><a href="" class="header__list--link">Programs</a></li>
+            <li class="header__list--item"><a href="" class="header__list--link">About us</a></li>
+            <li class="header__list--item"><a href="" class="header__list--link">Gallery</a></li>
+        </ul>
+         background-image:  url(../img/hero.jpg) ;
+    background-size: cover;
+  
+    height: 80vh;
+    width: 100%;

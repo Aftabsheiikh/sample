@@ -1,0 +1,311 @@
+* {
+  margin: 0%;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  font-family: 'Poppins', sans-serif; }
+  @media screen and (max-width: 1000px) {
+    html {
+      font-size: 80%; } }
+
+body {
+  background-color: #ffffff;
+  font-family: 'Poppins', sans-serif; }
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 80vh 90vh max-content 70vh 100vh 120vh 100vh;
+  row-gap: 2rem; }
+  @media screen and (max-width: 1000px) {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      grid-template-rows: 80vh max-content max-content max-content 100vh min-content 100vh; } }
+
+.header__logo-box {
+  padding: 1rem; }
+
+.header__logo {
+  height: 4rem;
+  width: 4rem; }
+
+.container-12 {
+  background-image: linear-gradient(to right, rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)), url(/img/hero.jpg);
+  background-size: cover;
+  height: 100%; }
+
+.footer {
+  background-color: black; }
+
+.contact {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container6 {
+  display: flex;
+  flex-direction: column;
+  min-width: 40vh;
+  margin: 3px auto;
+  width: 35%;
+  position: relative;
+  background-color: white;
+  box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.12); }
+
+form {
+  padding: 2rem;
+  height: 100%;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative; }
+
+label {
+  font-size: .9rem;
+  display: block;
+  margin-top: 10px;
+  color: #555555;
+  margin-bottom: .4rem; }
+
+input[type="text"],
+input[type="email"],
+input[type="tel"] {
+  font-size: .9rem;
+  width: 100%;
+  padding: .8rem;
+  border: 1px solid #d6d6d6;
+  border-radius: 6px;
+  margin-bottom: .6rem; }
+
+input[type="submit"] {
+  margin-top: 1rem;
+  align-self: center;
+  background-color: black;
+  color: white;
+  font-size: .9rem;
+  border: none;
+  padding: 1.1rem 3rem;
+  cursor: pointer; }
+
+.signup {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.signup::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 46rem;
+  background-image: url(/img/jijut2.jpg);
+  filter: brightness(0.7);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 1; }
+
+.container5 {
+  position: absolute;
+  z-index: 40;
+  /* Updated z-index */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif; }
+  @media screen and (max-width: 800px) {
+    .container5 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center; } }
+
+.btn2 {
+  border: none;
+  padding: 1rem 3rem;
+  background-color: #BC6C25;
+  color: #fff; }
+
+.heading-3 {
+  font-weight: 300;
+  font-size: 3rem;
+  margin-bottom: 1.3rem;
+  color: #fff; }
+
+.paragraph4 {
+  margin-bottom: 1.3rem;
+  color: #fff;
+  font-size: .9rem; }
+
+.quote {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.container4 {
+  padding: 2rem 3rem;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center; }
+  @media screen and (max-width: 1000px) {
+    .container4 {
+      width: 100%; } }
+
+.paragraph-2 {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem; }
+  @media screen and (max-width: 1000px) {
+    .paragraph-2 {
+      font-size: 1.5rem;
+      font-weight: 500; } }
+
+.paragraph-3 {
+  font-size: .9rem;
+  color: #52525B; }
+
+.techniques {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  font-family: 'Poppins', sans-serif; }
+  @media screen and (max-width: 1000px) {
+    .techniques {
+      flex-direction: column-reverse;
+      gap: 0; } }
+
+.container2 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: start;
+  padding-left: 2rem; }
+  @media screen and (max-width: 1000px) {
+    .container2 {
+      width: 96%;
+      padding-left: 4rem; } }
+
+.item1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media screen and (max-width: 1000px) {
+    .item1 {
+      width: 90%; } }
+
+.heading-1 {
+  font-size: 2.5rem;
+  font-weight: 500;
+  padding-bottom: .7rem; }
+  @media screen and (max-width: 1000px) {
+    .heading-1 {
+      font-size: 1.8rem; } }
+
+.paragraph-1 {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  font-weight: 400; }
+  @media screen and (max-width: 1000px) {
+    .paragraph-1 {
+      font-size: .8rem; } }
+
+.btn {
+  border: none;
+  padding: 1rem 3rem;
+  background-color: black;
+  color: #fff; }
+
+.item2 {
+  width: 100%; }
+  @media screen and (max-width: 1000px) {
+    .item2 {
+      width: 82%; } }
+  .item2--img {
+    padding: 2rem;
+    background-size: cover;
+    width: 100%; }
+
+.train {
+  background-color: #fefae0;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 800px) {
+    .train {
+      background-color: #fff; } }
+  @media screen and (max-width: 1000px) {
+    .train {
+      flex-direction: column; } }
+
+.container3 {
+  width: 90%;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: space-between; }
+  @media screen and (max-width: 800px) {
+    .container3 {
+      flex-direction: column; } }
+  @media screen and (max-width: 1000px) {
+    .container3 {
+      flex-direction: column; } }
+
+.item3 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media screen and (max-width: 800px) {
+    .item3 {
+      width: 80%;
+      padding-bottom: 2rem; } }
+  @media screen and (max-width: 1000px) {
+    .item3 {
+      width: 75%;
+      padding-bottom: 3rem; } }
+
+.img2 {
+  display: flex;
+  width: 100%;
+  background-size: cover; }
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: start;
+  align-items: start;
+  padding-left: 2rem; }
+  @media screen and (max-width: 1000px) {
+    .contain {
+      padding: 0%; } }
+
+.item4 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center; }
+  @media screen and (max-width: 800px) {
+    .item4 {
+      width: 75%; } }
+  @media screen and (max-width: 1000px) {
+    .item4 {
+      width: 80%; } }
